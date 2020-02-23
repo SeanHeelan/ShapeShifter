@@ -1,15 +1,15 @@
 ShapeShifter is a heap allocator that allows for a particular heap layout to be
-selected by the user. Its purpose is to support automatic exploit generation and
-primitive discovery by allowing such a system to **assume** a particular heap
+selected by the user. Its purpose is to support automatic exploit generation,
+and primitive discovery, by allowing such a system to *assume* a particular heap
 layout holds, explore the possibilities that layout offers, and then later, if
 the layout is useful, figure out how to achieve that layout.
 
 I developed ShapeShifter for use in the system described in my CCS 2019 paper
-titled **Gollum: Modular and Greybox Exploit Generation for Heap Overflows in
-Interpreters**. The code in this repository is an updated version of
-ShapeShifter and so some features may have been added, changed or removed.
+titled *Gollum: Modular and Greybox Exploit Generation for Heap Overflows in
+Interpreters*. The code in this repository is an updated version of ShapeShifter
+and so some features may have been added, changed or removed.
 
-If ShapeShifter is useful to you please cite it as follows:
+If ShapeShifter is useful to you in your research, please cite it as follows:
 
 ```
 @inproceedings{Heelan:2019:GMG:3319535.3354224,
